@@ -1,0 +1,16 @@
+.buttons{
+    display: block;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+#buttonsdiv{
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px;
+}
+
+#zero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
