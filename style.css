@@ -6,6 +6,7 @@ body{
 #clcdiv{
     background-color:black;
     width: 17.5rem;
+    border-radius: 0.625rem;
 }
 .buttons{
     display: block;
