@@ -73,7 +73,7 @@ plusBtn.addEventListener('click', () => {
   inputPlace.value += '+';
 });
 percentBtn.addEventListener('click', () => {
-  inputPlace.value += '%';
+  inputPlace.value = inputPlace.value.slice(0, -1);
 });
 absBtn.addEventListener('click', () => {
   let result = 1;
